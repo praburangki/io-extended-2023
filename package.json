@@ -1,0 +1,20 @@
+{
+  "name": "io-extended-2023",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "eject": "slidev theme eject"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.42.5",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  },
+  "slidev": {
+    "defaults": {
+      "colorSchema": "light"
+    }
+  }
+}
