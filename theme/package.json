@@ -12,15 +12,12 @@
   ],
   "license": "MIT",
   "slidev": {
-    "colorSchema": "both",
-    "highlighter": "all",
+    "colorSchema": "light",
+    "highlighter": "shiki",
     "defaults": {
       "fonts": {
-        "mono": "PT Mono",
-        "sans": "PT Serif",
-        "serif": "PT Serif",
-        "italic": true,
-        "weights": "400, 700"
+        "mono": "Google Sans Mono",
+        "sans": "Google Sans"
       }
     }
   },
