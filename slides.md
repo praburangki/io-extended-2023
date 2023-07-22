@@ -1,18 +1,10 @@
 ---
 theme: ./theme
-background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
-highlighter: shiki
-lineNumbers: false
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
 transition: slide-left
-title: Welcome to Slidev
+title: IO Extended 2023
 ---
 
 # Welcome to Slidev
@@ -36,11 +28,22 @@ Presentation slides for developers
 </div>
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+Menurut pemikiran gw, kalau lu bisa web lu punya kuasa.
+
+Di sini masih ada yang anak SMA?
 -->
 
 ---
-transition: fade-out
+layout: intro
+---
+
+---
+clicks: 12
+---
+
+<KuisMaksa />
+
+---
 ---
 
 # What is Slidev?
@@ -85,6 +88,14 @@ Here is another comment.
 layout: default
 ---
 
+# Dialog Element
+
+[Title](https://youtu.be/x9rh0Du4Czg?t=178)
+
+---
+layout: default
+---
+
 # Table of contents
 
 ```
@@ -121,8 +132,6 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Code
@@ -131,16 +140,16 @@ Use code snippets and get the highlighting directly![^1]
 
 ```ts {all|2|1-6|9|all}
 interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
+  id: number;
+  firstName: string;
+  lastName: string;
+  role: string;
 }
 
 function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
+  const user = getUser(id);
+  const newUser = { ...user, ...update };
+  saveUser(id, newUser);
 }
 ```
 

@@ -1,0 +1,8 @@
+.slidev-vclick-target {
+  @apply transition-280;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  pointer-events: none;
+}

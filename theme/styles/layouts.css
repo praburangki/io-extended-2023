@@ -3,6 +3,8 @@
 }
 
 .slidev-layout {
+  @apply pa-10;
+
   h1 {
     color: var(--slidev-theme-primary);
   }
