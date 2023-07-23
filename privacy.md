@@ -42,3 +42,12 @@ transition: slide-up
 </div>
 </div>
 
+---
+layout: image-only
+image: https://awsimages.detik.net.id/community/media/visual/2023/07/17/budi-arie-setiadi-jadi-menkominfo-gantikan-johhny-g-plate_169.jpeg?w=600&q=90
+transition: slide-up
+---
+
+# Kominfo Tercinta
+
+<PrivacyGatotkaca />
