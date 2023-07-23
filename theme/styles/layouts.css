@@ -3,10 +3,8 @@
 }
 
 .slidev-layout {
-  @apply pa-10;
-
   h1 {
-    color: var(--slidev-theme-primary);
+    @apply font-bold z-2 relative;
   }
 
   h1 + p {
@@ -43,6 +41,10 @@
 
   h6:not(.opacity-100) {
     @apply opacity-40;
+  }
+
+  ul {
+    list-style: disc;
   }
 }
 

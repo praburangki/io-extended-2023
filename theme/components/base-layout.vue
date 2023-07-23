@@ -3,14 +3,14 @@
 </script>
 
 <template>
-  <div class="slidev-layout intro bg-[#29AB49] relative pa-6">
+  <div class="slidev-layout bg-[#29AB49] relative pa-6">
     <div class="shape yellow-circle" />
     <div class="shape white-circle" />
     <div class="shape blue-circle" />
     <div class="shape red-box" />
     <div class="line" />
 
-    <div class="relative bg-white rounded-4 border-black border-4 pa-8">
+    <div class="h-full relative bg-white rounded-4 border-black border-4 pa-8 overflow-hidden flex flex-col">
       <slot />
     </div>
   </div>

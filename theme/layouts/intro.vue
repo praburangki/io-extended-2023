@@ -19,6 +19,13 @@
         </h4>
 
         <h4
+          v-click
+          class="font-bold text-[#FFBB00] mt-2"
+        >
+          Si Paling Startup
+        </h4>
+
+        <h4
           class="font-bold text-[#29AB49] mt-2 gde"
         >
           <span
@@ -27,7 +34,7 @@
             Google Developer Expert
           </span>
           <span
-            v-click="2"
+            v-click
           >
             Penjilat
           </span>
@@ -36,15 +43,3 @@
     </div>
   </BaseLayout>
 </template>
-
-<style lang="postcss" scoped>
-  .gde {
-    .slidev-vclick-target {
-      @apply transition-280;
-    }
-
-    .slidev-vclick-hidden {
-      transform: scale(0);
-    }
-  }
-</style>
